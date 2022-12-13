@@ -1,12 +1,21 @@
-# Project Title
+# Staking contract (using slope intercept formula)
 
-Info about the project.
+The main objective of this contract is to calculate the apy using slope-intercept formula and the motivation behind that
+sometimes apy might not be linear, as an example: For 1000 tokens user might get %1 apy, but what if user gets %9 apy at
+100.000 tokens instead of 9000 ?!
+
+An example graph: https://www.desmos.com/calculator/woto8v1fmc
+
+Warning: Be aware, this contract written just for concept and it's not optimized for gas usage and it's not tested
+properly !!!
 
 ## Installation
 
 ### Pre Requisites
 
-Before running any command, you need to create a .env file and set a BIP-39 compatible mnemonic as an environment variable. Follow the example in .env.example. If you don't already have a mnemonic, use this [website](https://iancoleman.io/bip39/) to generate one.
+Before running any command, you need to create a .env file and set a BIP-39 compatible mnemonic as an environment
+variable. Follow the example in .env.example. If you don't already have a mnemonic, use this
+[website](https://iancoleman.io/bip39/) to generate one.
 
 1. Install node and npm
 2. Install yarn
@@ -93,4 +102,5 @@ yarn coverage
 
 ## Contributing
 
-For git linting [commitlint](https://github.com/conventional-changelog/commitlint) is being used. [This website](https://commitlint.io/) can be helpful to write commit messages.
+For git linting [commitlint](https://github.com/conventional-changelog/commitlint) is being used.
+[This website](https://commitlint.io/) can be helpful to write commit messages.
